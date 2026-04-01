@@ -1,0 +1,36 @@
+# 版本控制
+.git
+.gitignore
+
+# 编辑器
+.vscode
+.idea
+*.swp
+*.swo
+
+# 编译产物
+bin/
+tmp/
+*.exe
+
+# 测试和覆盖率
+*.test
+*.out
+coverage.txt
+
+# 日志
+logs/
+*.log
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# 文档
+*.md
+docs/
+
+# 开发配置
+.air.toml
+Makefile

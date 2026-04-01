@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  mode: debug # debug, release
+
+database:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: 123456
+  dbname: test
+  sslmode: disable
+
+jwt:
+  secret: your-secret-key-change-in-production
+  expire_hours: 24
+
+log:
+  level: info # debug, info, warn, error
+  file: logs/app.log
